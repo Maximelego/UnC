@@ -12,8 +12,8 @@
 class Card {
 
 private:
-    int value;
-    Color color;
+    int m_value;
+    Color m_color;
 
 public:
     // Constructor //

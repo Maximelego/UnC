@@ -13,7 +13,11 @@ set(SOURCES
         src/core/uno/cards/Color.cpp
         src/core/uno/cards/Number.cpp
         src/core/uno/cards/CardDeck.cpp
-        src/core/uno/utils/EnhancedList.cpp
+        src/core/uno/utils/Stack.cpp
+        src/core/uno/cards/SkipTurn.cpp
+        src/core/uno/cards/include/SkipTurn.hpp
+        src/core/uno/factories/CardDeckFactory.cpp
+        src/core/uno/factories/include/CardDeckFactory.hpp
 )
 
 # Déclaration des fichiers de tests

@@ -11,7 +11,7 @@
 class CardDeck {
 
 private:
-    Card* deck;
+    Card* m_deck;
 
 public :
     CardDeck();

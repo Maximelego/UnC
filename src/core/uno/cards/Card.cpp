@@ -5,16 +5,16 @@
 #include "include/Card.hpp"
 
 Card::Card(int v, Color c) {
-    value = v;
-    color = c;
+    m_value = v;
+    m_color = c;
 }
 
 int Card::get_value() const {
-    return this->value;
+    return this->m_value;
 }
 
 Color Card::get_color() const {
-    return this->color;
+    return this->m_color;
 }
 
 std::ostream& operator << (std::ostream& os, const Card& value) {
